@@ -1,0 +1,22 @@
+[[package]]
+name = "picamera"
+version = "1.13"
+description = "A pure Python interface for the Raspberry Pi camera module."
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.extras]
+test = ["coverage", "pytest", "mock", "pillow", "numpy"]
+doc = ["sphinx"]
+array = ["numpy"]
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "a8dda9b9c177bdc4c3e39e6068681e1bf8cde1abc09b39c71b85fee140d73c1c"
+
+[metadata.files]
+picamera = [
+    {file = "picamera-1.13.tar.gz", hash = "sha256:890815aa01e4d855a6a95dd3ad0953b872a6b954982106407df0c5a31a163e50"},
+]
