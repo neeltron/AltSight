@@ -21,4 +21,5 @@ def detect(img):
 labels = detect('live.jpg')
 print(labels)
 
-
+for i in labels:
+  print(i.description)
