@@ -18,4 +18,7 @@ def detect(img):
   labels = response.label_annotations
   return labels
 
-detect('live.jpg')
+labels = detect('live.jpg')
+print(labels)
+
+
