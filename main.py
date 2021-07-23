@@ -23,5 +23,4 @@ print(labels)
 
 for i in labels:
   print(i.description)
-
-os.system('espeak "' + i.description + '"')
+  os.system('espeak "' + i.description + '"')
