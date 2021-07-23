@@ -5,6 +5,7 @@ from picamera import PiCamera
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="/home/pi/Downloads/cognitio-7378d-f0c72d841d75.json"
 
 camera = PiCamera()
+camera.capture('live.jpg')
 
 def detect(img):
   from google.cloud import vision
@@ -16,3 +17,5 @@ def detect(img):
   response = client.label_detection(image=image)
   labels = response.label_annotations
   return labels
+
+detect('live.jpg')
