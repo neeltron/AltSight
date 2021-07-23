@@ -1,7 +1,10 @@
 import os
 import io
+from picamera import PiCamera
 
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="/home/pi/Downloads/cognitio-7378d-f0c72d841d75.json"
+
+camera = PiCamera()
 
 def detect(img):
   from google.cloud import vision
