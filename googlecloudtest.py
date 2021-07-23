@@ -1,6 +1,8 @@
 import os
 import io
 
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="/home/pi/Downloads/cognitio-7378d-f0c72d841d75.json"
+
 def detect(img):
   from google.cloud import vision
   client = vision.ImageAnnotatorClient()
