@@ -23,6 +23,12 @@ Python3 and Thonny are present by default in a Raspberry Pi
 ```
 sudo apt-get install espeak python-espeak
 ```
-+ 
++ Google Cloud Vision
+```
+pip install google-cloud-vision
+```
 
 ## Relevant Links
+
+Devpost: https://devpost.com/software/altsight
+<br>Demo Video: https://youtu.be/4nYoSJ8HOBc
