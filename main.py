@@ -17,8 +17,9 @@ def detect(img):
   return labels
 
 
+camera = PiCamera()
+
 while True:
-  camera = PiCamera()
   camera.capture('live.jpg')
   labels = detect('live.jpg')
   temp = 0
@@ -28,6 +29,6 @@ while True:
     print(i.description)
     if temp == 0:
       desc = i.description
-    temp += 1
+      break
   os.system('espeak "' + desc + '"')
   sleep(2)
