@@ -28,6 +28,11 @@ sudo apt-get install espeak python-espeak
 pip install google-cloud-vision
 ```
 
+## How to run?
+```
+python3 main.py
+```
+
 ## Relevant Links
 
 Devpost: https://devpost.com/software/altsight
