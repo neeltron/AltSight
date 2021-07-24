@@ -16,5 +16,5 @@ I'm traveling most of the time this weekend, and had less than 18 hours to build
 I'm proud of myself for finishing up the whole project in a short span of time.
 ## What I learned? 🏫
 It is calm and cozy to write up devpost submissions in a train.
-## What's next for AltSight
+## What's next for AltSight? 🥠🔮
 I'll make it fully portable once I have an Li-Ion battery and its adapter.
