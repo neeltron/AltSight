@@ -21,6 +21,12 @@ def detect(img):
 labels = detect('live.jpg')
 print(labels)
 
+temp = 0
+desc = ""
+
 for i in labels:
   print(i.description)
-  os.system('espeak "' + i.description + '"')
+  if temp == 0:
+    desc = i.description
+  temp += 1
+os.system('espeak "' + desc + '"')
